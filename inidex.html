@@ -130,7 +130,7 @@
         </div>
     </nav>
 
-    <aside class="product-detail  inactive">
+    <aside id="shoppingCartContainer" class="inactive">
         <div class="title-container">
             <img src="./icons/flechita.svg" alt="arrow">
             <p class="title">Mi orden</p>
@@ -183,22 +183,29 @@
         
     </aside>
 
+    <aside id="productDetail" class="inactive">
+        <div class="product-detail-close">
+         <img src="./icons/icon_close.png" alt="close">   
+        </div>
+        
+        <img src="https://images.pexels.com/photos/1616566/pexels-photo-1616566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+        alt="bike">
+        <div class="product-info">
+            <p>$120.000</p>
+            <p>Bicicleta retro</p>
+            <p>Esta bicicleta es la mejor por relacion precio calidad, recomedada para hacer viajes cortos a tu trabajo o simplemete por osio, llavala, quedan poca unidades.</p>
+            <button class="primary-button  add-to-cart-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="add to cart"> Al carrito
+            </button>
+        </div>
+
+
+    </aside>
+
     <section class="main-container">
         <div class="cards-container">
             
-           <!-- <div class="product-card">
-                <img src="https://images.pexels.com/photos/1616566/pexels-photo-1616566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
-                <div class="product-info">
-                    <div>
-                        <p>$120.000</p>
-                        <p>Bike</p> 
-                    </div>
-                    <figure>
-                        <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>                   
-                </div>                
-            </div>       
-    </section> -->
+          
 
     <script src="./main.js" defer></script>
 </body>
